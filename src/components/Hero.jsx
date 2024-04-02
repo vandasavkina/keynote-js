@@ -12,7 +12,7 @@ export function Hero() {
             <span className="sr-only">TechResearch - </span>Data Storage in
             Synthetic DNA
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
+          <div className="mt-6 space-y-6 rounded-lg bg-indigo-50 p-6 font-display text-2xl tracking-tight text-blue-900">
             {/* <p>
               Navigating the Crossroads of Technological Innovation and
               Environmental Sustainability.
@@ -21,17 +21,17 @@ export function Hero() {
               In the quest for sustainable and innovative data storage
               solutions, synthetic DNA emerges as a frontier technology with the
               potential to revolutionize the field of electronics and
-              computation. This article delves into the intricacies of DNA-based
+              computation. This research dives into the intricacies of DNA-based
               data storage, exploring its implications for environmental
               sustainability, the challenges inherent in coding and decoding
               information in DNA, and projections for its future development.
             </p>
-            <p>
+            {/* <p>
               Insights from interviews with coders at a leading academy
               underscore the urgency of addressing the environmental impacts of
               current computational practices and the potential of synthetic DNA
               to mitigate these concerns.
-            </p>
+            </p> */}
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
             More

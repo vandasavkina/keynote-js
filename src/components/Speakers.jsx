@@ -28,13 +28,13 @@ import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
 
 const days = [
   {
-    name: 'Opening Day',
-    date: 'April 4',
+    name: 'DNA Storage',
+    date: 'Phases',
     dateTime: '2022-04-04',
     speakers: [
       {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
+        name: 'Encoding Efficiency',
+        role: 'Converting digital data into sequences of DNA bases requires sophisticated algorithms to ensure data integrity and accessibility',
         image: stevenMchailImage,
       },
       {
@@ -57,16 +57,16 @@ const days = [
         role: 'Product Lead at Cyberdyne Systems',
         image: erhartCockrinImage,
       },
-      {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
-      },
+      // {
+      //   name: 'Parker Johnson',
+      //   role: 'UI Designer at MomCorp',
+      //   image: parkerJohnsonImage,
+      // },
     ],
   },
   {
-    name: 'Speakers & Workshops',
-    date: 'April 5',
+    name: 'DNA Storage',
+    date: 'Challenges',
     dateTime: '2022-04-05',
     speakers: [
       {
@@ -89,55 +89,129 @@ const days = [
         role: 'Data Scientist at Rekall',
         image: rinaldoBeynonImage,
       },
-      {
-        name: 'Waylon Hyden',
-        role: 'DevOps at RDA Corporation',
-        image: waylonHydenImage,
-      },
-      {
-        name: 'Giordano Sagucio',
-        role: 'Game Developer at Soylent Corp',
-        image: giordanoSagucioImage,
-      },
+      // {
+      //   name: 'Waylon Hyden',
+      //   role: 'DevOps at RDA Corporation',
+      //   image: waylonHydenImage,
+      // },
+      // {
+      //   name: 'Giordano Sagucio',
+      //   role: 'Game Developer at Soylent Corp',
+      //   image: giordanoSagucioImage,
+      // },
     ],
   },
-  {
-    name: 'Interviews',
-    date: 'April 6',
-    dateTime: '2022-04-06',
-    speakers: [
-      {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
-        image: andrewGreeneImage,
-      },
-      {
-        name: 'Heather Terry',
-        role: 'Backend Developer at Xanatos Enterprises',
-        image: heatherTerryImage,
-      },
-      {
-        name: 'Piers Wilkins',
-        role: 'Full stack Developer at BiffCo',
-        image: piersWilkinsImage,
-      },
-      {
-        name: 'Gordon Sanderson',
-        role: 'Mobile Developer at Cobra Industries',
-        image: gordonSandersonImage,
-      },
-      {
-        name: 'Kimberly Parsons',
-        role: 'Game Developer at Tyrell Corporation',
-        image: kimberlyParsonsImage,
-      },
-      {
-        name: 'Richard Astley',
-        role: 'CEO at Roll Out',
-        image: richardAstley,
-      },
-    ],
-  },
+  // {
+  //   name: 'Interviews',
+  //   date: 'April 6',
+  //   dateTime: '2022-04-06',
+  //   speakers: [
+  //     {
+  //       name: 'Andrew Greene',
+  //       role: 'Frontend Developer at Ultratech',
+  //       image: andrewGreeneImage,
+  //     },
+  //     {
+  //       name: 'Heather Terry',
+  //       role: 'Backend Developer at Xanatos Enterprises',
+  //       image: heatherTerryImage,
+  //     },
+  //     {
+  //       name: 'Piers Wilkins',
+  //       role: 'Full stack Developer at BiffCo',
+  //       image: piersWilkinsImage,
+  //     },
+  //     {
+  //       name: 'Gordon Sanderson',
+  //       role: 'Mobile Developer at Cobra Industries',
+  //       image: gordonSandersonImage,
+  //     },
+  //     {
+  //       name: 'Kimberly Parsons',
+  //       role: 'Game Developer at Tyrell Corporation',
+  //       image: kimberlyParsonsImage,
+  //     },
+  //     {
+  //       name: 'Richard Astley',
+  //       role: 'CEO at Roll Out',
+  //       image: richardAstley,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Interviews',
+  //   date: 'April 7',
+  //   dateTime: '2022-04-06',
+  //   speakers: [
+  //     {
+  //       name: 'Andrew Greene',
+  //       role: 'Frontend Developer at Ultratech',
+  //       image: andrewGreeneImage,
+  //     },
+  //     {
+  //       name: 'Heather Terry',
+  //       role: 'Backend Developer at Xanatos Enterprises',
+  //       image: heatherTerryImage,
+  //     },
+  //     {
+  //       name: 'Piers Wilkins',
+  //       role: 'Full stack Developer at BiffCo',
+  //       image: piersWilkinsImage,
+  //     },
+  //     {
+  //       name: 'Gordon Sanderson',
+  //       role: 'Mobile Developer at Cobra Industries',
+  //       image: gordonSandersonImage,
+  //     },
+  //     {
+  //       name: 'Kimberly Parsons',
+  //       role: 'Game Developer at Tyrell Corporation',
+  //       image: kimberlyParsonsImage,
+  //     },
+  //     {
+  //       name: 'Richard Astley',
+  //       role: 'CEO at Roll Out',
+  //       image: richardAstley,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Interviews',
+  //   date: 'April 8',
+  //   dateTime: '2022-04-06',
+  //   speakers: [
+  //     {
+  //       name: 'Andrew Greene',
+  //       role: 'Frontend Developer at Ultratech',
+  //       image: andrewGreeneImage,
+  //     },
+  //     {
+  //       name: 'Heather Terry',
+  //       role: 'Backend Developer at Xanatos Enterprises',
+  //       image: heatherTerryImage,
+  //     },
+  //     {
+  //       name: 'Piers Wilkins',
+  //       role: 'Full stack Developer at BiffCo',
+  //       image: piersWilkinsImage,
+  //     },
+  //     {
+  //       name: 'Gordon Sanderson',
+  //       role: 'Mobile Developer at Cobra Industries',
+  //       image: gordonSandersonImage,
+  //     },
+  //     {
+  //       name: 'Kimberly Parsons',
+  //       role: 'Game Developer at Tyrell Corporation',
+  //       image: kimberlyParsonsImage,
+  //     },
+  //     {
+  //       name: 'Richard Astley',
+  //       role: 'CEO at Roll Out',
+  //       image: richardAstley,
+  // },
+  // ],
+  // },
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -190,11 +264,14 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
-            Speakers
+            Process and Challenges
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts on the cutting-edge of deception at the most
-            sinister companies.
+            Synthetic DNA storage involves encoding binary data into sequences
+            of DNA bases (adenine, cytosine, guanine, and thymine), which can
+            then be synthesized and stored. The transition to DNA-based data
+            storage comes along with technical challenges. Let's take a closer
+            look at these points:
           </p>
         </div>
         <Tab.Group
