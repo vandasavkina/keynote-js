@@ -302,9 +302,13 @@ export function Schedule() {
             geniuses.
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+            The exploration of synthetic DNA for data storage embodies the
+            intersection of technological innovation and environmental
+            consciousness. While challenges remain in realizing its full
+            potential, DNA storage offers a compelling vision of a future where
+            data is stored not in sprawling data centers, but in the very fabric
+            of life itself, aligning the digital age with the principles of
+            sustainability and ecological harmony
           </p>
         </div>
       </Container>

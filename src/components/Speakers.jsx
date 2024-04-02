@@ -71,12 +71,12 @@ const days = [
     speakers: [
       {
         name: 'Encoding Efficiency',
-        role: 'Converting digital data into sequences of DNA bases requires sophisticated algorithms to ensure data integrity and accessibility',
+        role: 'Converting digital data into sequences of DNA bases requires sophisticated algorithms to ensure data integrity and accessibility.',
         image: damarisKimuraImage,
       },
       {
         name: 'Synthesis & Sequencing Cost',
-        role: 'Currently, synthesizing and sequencing DNA are expensive processes, limiting the scalability of DNA data storage',
+        role: 'Currently, synthesizing and sequencing DNA are expensive processes, limiting the scalability of DNA data storage.',
         image: ibrahimFraschImage,
       },
       {
@@ -86,7 +86,7 @@ const days = [
       },
       {
         name: 'Storage and Retrieval Speed',
-        role: 'Compared to conventional storage media, DNA storage currently exhibits slower read and write speeds, posing a challenge for applications requiring rapid data access',
+        role: 'Compared to conventional storage media, DNA storage currently exhibits slower read and write speeds, posing a challenge for applications requiring rapid data access.',
         image: rinaldoBeynonImage,
       },
       // {
@@ -101,43 +101,43 @@ const days = [
       // },
     ],
   },
-  // {
-  //   name: 'Interviews',
-  //   date: 'April 6',
-  //   dateTime: '2022-04-06',
-  //   speakers: [
-  //     {
-  //       name: 'Andrew Greene',
-  //       role: 'Frontend Developer at Ultratech',
-  //       image: andrewGreeneImage,
-  //     },
-  //     {
-  //       name: 'Heather Terry',
-  //       role: 'Backend Developer at Xanatos Enterprises',
-  //       image: heatherTerryImage,
-  //     },
-  //     {
-  //       name: 'Piers Wilkins',
-  //       role: 'Full stack Developer at BiffCo',
-  //       image: piersWilkinsImage,
-  //     },
-  //     {
-  //       name: 'Gordon Sanderson',
-  //       role: 'Mobile Developer at Cobra Industries',
-  //       image: gordonSandersonImage,
-  //     },
-  //     {
-  //       name: 'Kimberly Parsons',
-  //       role: 'Game Developer at Tyrell Corporation',
-  //       image: kimberlyParsonsImage,
-  //     },
-  //     {
-  //       name: 'Richard Astley',
-  //       role: 'CEO at Roll Out',
-  //       image: richardAstley,
-  //     },
-  //   ],
-  // },
+  {
+    name: 'DNA Storage',
+    date: 'Prospectives',
+    dateTime: '2022-04-06',
+    speakers: [
+      {
+        name: 'Future applications',
+        role: 'The next decade holds promise for the maturation and commercialization of DNA storage technology. Advances in biotechnology and computational algorithms are expected to lower costs, improve efficiency, and enhance the reliability of DNA as a storage medium. As the technology evolves, it could become a cornerstone of a sustainable data economy, offering a solution that reconciles the increasing demand for data storage with the imperative of environmental stewardship.',
+        image: andrewGreeneImage,
+      },
+      // {
+      //   name: 'Heather Terry',
+      //   role: 'Backend Developer at Xanatos Enterprises',
+      //   image: heatherTerryImage,
+      // },
+      //     {
+      //       name: 'Piers Wilkins',
+      //       role: 'Full stack Developer at BiffCo',
+      //       image: piersWilkinsImage,
+      //     },
+      //     {
+      //       name: 'Gordon Sanderson',
+      //       role: 'Mobile Developer at Cobra Industries',
+      //       image: gordonSandersonImage,
+      //     },
+      //     {
+      //       name: 'Kimberly Parsons',
+      //       role: 'Game Developer at Tyrell Corporation',
+      //       image: kimberlyParsonsImage,
+      //     },
+      //     {
+      //       name: 'Richard Astley',
+      //       role: 'CEO at Roll Out',
+      //       image: richardAstley,
+      // },
+    ],
+  },
   // {
   //   name: 'Interviews',
   //   date: 'April 7',
