@@ -270,8 +270,8 @@ export function Speakers() {
             Synthetic DNA storage involves encoding binary data into sequences
             of DNA bases (adenine, cytosine, guanine, and thymine), which can
             then be synthesized and stored. The transition to DNA-based data
-            storage comes along with technical challenges. Let's take a closer
-            look at these points:
+            storage comes along with technical challenges. Let&apos;s take a
+            closer look at these points:
           </p>
         </div>
         <Tab.Group
