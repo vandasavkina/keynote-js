@@ -33,28 +33,28 @@ const days = [
     dateTime: '2022-04-04',
     speakers: [
       {
-        name: 'Encoding Efficiency',
-        role: 'Converting digital data into sequences of DNA bases requires sophisticated algorithms to ensure data integrity and accessibility',
+        name: 'Encoding',
+        role: 'In DNA data storage encoding, information is first converted into binary format (0 and 1), then mapped into DNA bases (A, C, T, G) in segments. Metadata are added for error correction and decoding guidance, respectively, culminating in DNA sequences ready for synthesis, transforming binary data into DNA for storage.',
         image: stevenMchailImage,
       },
       {
-        name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
+        name: 'Synthesis',
+        role: 'The process of making DNA data storage physical involves chemical synthesis, traditionally through the phosphoramidite method, or more recently, enzymatic routes for eco-friendliness. Both techniques produce identical DNA strands, with growing market participation aiming to expand environmentally sustainable options.',
         image: jaquelinIschImage,
       },
       {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
+        name: 'Storage',
+        role: "Preserving DNA's integrity involves storing it through freeze-drying in inert-atmosphere chambers to prevent degradation. Technological research explore encapsulating DNA in particles or embedding it in silicon wafers, offering robust alternatives for securing data longevity, spanning from decades to millennia.",
         image: dianneGuilianelliImage,
       },
       {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
+        name: 'Sequencing',
+        role: 'After storing data in DNA, retrieving it requires accessing the preserved DNA and determining its base sequence. The prevalent approach for this is DNA sequencing, utilizing current sequencing technologies to decode the stored information accurately.',
         image: ronniCantadoreImage,
       },
       {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
+        name: 'Decoding',
+        role: 'To retrieve information stored in DNA, the decoding algorithm converts the DNA sequence back into binary data, mapping As, Cs, Ts, and Gs to 0s and 1s. This process includes arranging DNA strands in the correct order and performing error checking and correction, ensuring accurate data recovery.',
         image: erhartCockrinImage,
       },
       // {
@@ -70,23 +70,23 @@ const days = [
     dateTime: '2022-04-05',
     speakers: [
       {
-        name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
+        name: 'Encoding Efficiency',
+        role: 'Converting digital data into sequences of DNA bases requires sophisticated algorithms to ensure data integrity and accessibility',
         image: damarisKimuraImage,
       },
       {
-        name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
+        name: 'Synthesis & Sequencing Cost',
+        role: 'Currently, synthesizing and sequencing DNA are expensive processes, limiting the scalability of DNA data storage',
         image: ibrahimFraschImage,
       },
       {
-        name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
+        name: 'Error Rates',
+        role: 'The potential for errors in DNA synthesis and sequencing necessitates the development of advanced error-correction methods.',
         image: cathleneBurrageImage,
       },
       {
-        name: 'Rinaldo Beynon',
-        role: 'Data Scientist at Rekall',
+        name: 'Storage and Retrieval Speed',
+        role: 'Compared to conventional storage media, DNA storage currently exhibits slower read and write speeds, posing a challenge for applications requiring rapid data access',
         image: rinaldoBeynonImage,
       },
       // {
