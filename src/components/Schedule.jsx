@@ -288,7 +288,7 @@ function ScheduleStatic() {
   return (
     <div className="">
       <Image
-        className="relative inset-0 w-40 object-cover transition duration-300 group-hover:scale-110"
+        className="inset-0 w-2/4 rounded-md object-cover transition duration-300 group-hover:scale-100"
         src={techResearch}
         alt=""
         priority
