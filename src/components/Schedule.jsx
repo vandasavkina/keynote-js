@@ -1,11 +1,14 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Container } from '@/components/Container'
+
+import techResearch from '@/images/tech-research.jpg'
 
 const schedule = [
   {
@@ -58,56 +61,56 @@ const schedule = [
       // },
     ],
   },
-  {
-    date: 'April 5',
-    dateTime: '2022-04-05',
-    summary:
-      'Next we spend the day talking about deceiving people with technology.',
-    timeSlots: [
-      {
-        name: 'Damaris Kimura',
-        description: 'The invisible card reader',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Ibrahim Frasch',
-        description: 'Stealing fingerprints',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Cathlene Burrage',
-        description: 'Voting machines',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      // {
-      //   name: 'Rinaldo Beynon',
-      //   description: 'Blackhat SEO that works',
-      //   start: '1:00PM',
-      //   end: '2:00PM',
-      // },
-      // {
-      //   name: 'Waylon Hyden',
-      //   description: 'Turning your audience into a botnet',
-      //   start: '2:00PM',
-      //   end: '3:00PM',
-      // },
-      // {
-      //   name: 'Giordano Sagucio',
-      //   description: 'Fly phishing',
-      //   start: '3:00PM',
-      //   end: '4:00PM',
-      // },
-    ],
-  },
+  // {
+  //   date: 'April 5',
+  //   dateTime: '2022-04-05',
+  //   summary:
+  //     'Next we spend the day talking about deceiving people with technology.',
+  //   timeSlots: [
+  //     {
+  //       name: 'Damaris Kimura',
+  //       description: 'The invisible card reader',
+  //       start: '9:00AM',
+  //       end: '10:00AM',
+  //     },
+  //     {
+  //       name: 'Ibrahim Frasch',
+  //       description: 'Stealing fingerprints',
+  //       start: '10:00AM',
+  //       end: '11:00AM',
+  //     },
+  //     {
+  //       name: 'Cathlene Burrage',
+  //       description: 'Voting machines',
+  //       start: '11:00AM',
+  //       end: '12:00PM',
+  //     },
+  //     {
+  //       name: 'Lunch',
+  //       description: null,
+  //       start: '12:00PM',
+  //       end: '1:00PM',
+  //     },
+  // {
+  //   name: 'Rinaldo Beynon',
+  //   description: 'Blackhat SEO that works',
+  //   start: '1:00PM',
+  //   end: '2:00PM',
+  // },
+  // {
+  //   name: 'Waylon Hyden',
+  //   description: 'Turning your audience into a botnet',
+  //   start: '2:00PM',
+  //   end: '3:00PM',
+  // },
+  // {
+  //   name: 'Giordano Sagucio',
+  //   description: 'Fly phishing',
+  //   start: '3:00PM',
+  //   end: '4:00PM',
+  // },
+  //   ],
+  // },
   // {
   //   date: 'April 6',
   //   dateTime: '2022-04-06',
@@ -181,7 +184,8 @@ function ScheduleTabbed() {
   return (
     <Tab.Group
       as="div"
-      className="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
+      style={{ maxWidth: '960px' }}
+      className="mx-auto grid max-w-4xl grid-cols-1 gap-y-6 lg:hidden"
       vertical={tabOrientation === 'vertical'}
     >
       <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pb-4 pl-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
@@ -191,7 +195,8 @@ function ScheduleTabbed() {
               <div
                 key={day.dateTime}
                 className={clsx(
-                  'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
+                  'relative flex-none sm:w-auto sm:pr-0',
+                  'w-full',
                   dayIndex !== selectedIndex && 'opacity-70',
                 )}
               >
@@ -228,7 +233,7 @@ function ScheduleTabbed() {
 function DaySummary({ day }) {
   return (
     <>
-      <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
+      <h3 className="text-4xl font-semibold tracking-tight text-blue-900">
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
       <p className="mt-1.5 text-base tracking-tight text-blue-900">
@@ -281,13 +286,14 @@ function TimeSlots({ day, className }) {
 
 function ScheduleStatic() {
   return (
-    <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-8">
-      {schedule.map((day) => (
-        <section key={day.dateTime}>
-          <DaySummary day={day} />
-          <TimeSlots day={day} className="mt-10" />
-        </section>
-      ))}
+    <div className="">
+      <Image
+        className="relative inset-0 w-40 object-cover transition duration-300 group-hover:scale-110"
+        src={techResearch}
+        alt=""
+        priority
+        sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+      />
     </div>
   )
 }
@@ -298,8 +304,7 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+            Possible outcomes of the DNA data storage
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
             The exploration of synthetic DNA for data storage embodies the
@@ -308,7 +313,7 @@ export function Schedule() {
             potential, DNA storage offers a compelling vision of a future where
             data is stored not in sprawling data centers, but in the very fabric
             of life itself, aligning the digital age with the principles of
-            sustainability and ecological harmony
+            sustainability and ecological harmony.
           </p>
         </div>
       </Container>
