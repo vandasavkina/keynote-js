@@ -36,8 +36,8 @@ export function Sponsors() {
           aspect of the Siberian larch is its root system - some specimens are
           known to have singular roots that date back around two thousand years.
           These ancient roots give life to generations of trees, making each
-          stand a historical monument of nature's endurance. This marvel, once
-          the realm of speculative science, has blossomed into reality: the
+          stand a historical monument of nature&apos;s endurance. This marvel,
+          once the realm of speculative science, has blossomed into reality: the
           storage of digital data in the DNA of plants. Just as each plant in
           our gardens and living spaces holds a unique genetic blueprint, they
           now also safeguard our digital heritage, from cherished photos to
